@@ -2,7 +2,7 @@
 var config = import("./keys")
 
 var config = {
-    apiKey: "AIzaSyBw07HQpEJAG77e0xe_-eW2rjJIhlRo0Zo",
+    apiKey: "process.env.API_KEY",
     authDomain: "my-portfolio-92fc8.firebaseapp.com",
     databaseURL: "https://my-portfolio-92fc8.firebaseio.com",
     projectId: "my-portfolio-92fc8",
@@ -18,17 +18,16 @@ firebase.initializeApp(config);
 var messagesRef = firebase.database().ref("messages");
 
 document.getElementById("contactform").addEventListener("submit",
- submitForm);
+submitForm);
 
 
 //  Submit form
 function submitForm(){
 // e.preventDefault();
 
-if ($("#name").val() == "" || $("#email").val() == "" || $("#message").val() == "") {
+if ($("#name").val() == "" || $("#email").val() == "" || $("#message").val() == "" ) {
 
  alert("Form is incomplete. Please fill out all fields.");
- reset()
  
 }else{
 
@@ -41,7 +40,7 @@ var message = getInputVal("message");
 saveMessage(name, email, message);
 
 alert("Message sent. I will get back to you ASAP");
-
+reset();
 }
 };
 
@@ -66,21 +65,21 @@ function reset() {
   message = $("#message").val("")
 };
 
-let init = function() {
-    let card = document.querySelector(".text-muted"),
-    startTime = new Date();
+// let init = function() {
+//     let card = document.querySelector(".text-muted"),
+//     startTime = new Date();
     
-    if (card) {
-      card.addEventListener("click", function(){
-        let miliSeconds = new Date() - startTime;
+//     if (card) {
+//       card.addEventListener("click", function(){
+//         let miliSeconds = new Date() - startTime;
 
-        alert(miliSeconds/1000 + "seconds,");
-       });
-    }
-}
+//         alert(miliSeconds/1000 + "seconds,");
+//        });
+//     }
+// }
 
-document.addEventListener("DOMContentLoaded", function(){
-  init();
+// document.addEventListener("DOMContentLoaded", function(){
+//   init();
 
-}, false);
+// }, false);
 

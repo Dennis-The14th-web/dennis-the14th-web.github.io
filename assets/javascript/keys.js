@@ -1,5 +1,5 @@
-// keys = {
-//     apiKey: process.env.API_KEY
-// };
+keys = {
+    apiKey: process.env.API_KEY
+};
 
-// exports(keys);
+exports(keys);
