@@ -51,7 +51,7 @@ nav{
     background: palegoldenrod;
 }
 
-#email{
+#emails{
     color: rgb(3, 3, 99);
 }
 
@@ -85,7 +85,7 @@ li, a, #contact-me {
     margin-bottom: 0;
 }
 
-#header1{
+.header1{
     color: #252323;
     padding: 5px;
     text-align: center;
@@ -253,7 +253,7 @@ li{
     padding: 20px;
 }
 
-#alph{
+.fa {
     color: #ffffff;
 }
 
@@ -327,7 +327,7 @@ li{
         margin-bottom: -10px;
     }
 
-    #header1{
+    .header1{
         color: #252323;
         font-size: 1.5em;
         padding: 5px;
