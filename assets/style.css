@@ -185,7 +185,7 @@ li{
     transform-style: preserve-3d;
 }
 
-#cardhead {
+.cardhead {
     text-align: center;
 }
 
