@@ -11,7 +11,7 @@ body{
     margin-bottom: 5px;
 }
 
-#hr{
+#line{
     width: 200px;
     border: 1px double rgb(8, 89, 175);
     margin-top: 3px;
@@ -32,6 +32,16 @@ nav{
 .about-container{
     background-color: #ffffff;
     
+}
+
+.alert {
+    text-align: center;
+    padding: 10px;
+    color: darkred;
+    font-weight: bolder;
+    background: #79c879;
+    margin-bottom: 10px;
+    display: none;
 }
 
 #email{
