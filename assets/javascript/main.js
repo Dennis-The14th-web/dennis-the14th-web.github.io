@@ -25,11 +25,10 @@ e.preventDefault();
 
 // Get value
 var name = getInputVal("name");
-var email = getInputVal("email");
 var message = getInputVal("message");
 
 // Save message
-saveMessage(name, email, message);
+saveMessage(name, message);
 
 // show alert
 document.querySelector(".alert").style.display = "block" ;
@@ -46,11 +45,10 @@ function getInputVal(id){
 }
 
 // Save message to firebase
-function saveMessage(name, email, message){
+function saveMessage(name, message){
 var newMessageRef = messagesRef.push();
 newMessageRef.set({
 name: name,
-email: email,
 message: message
 });
 }
