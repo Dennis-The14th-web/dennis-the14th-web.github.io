@@ -2,7 +2,7 @@
 
 body{
     position: relative;
-    background: #0c0c0c;
+    background: #ffffff;
     color: #0c0c0c;
 }  
 
@@ -41,7 +41,7 @@ nav{
 } 
 
 .about-container{
-    background-color: #0c0c0c; 
+    background-color: #ffffff; 
      
 }
 
@@ -60,7 +60,7 @@ nav{
 }
 
 #emails{
-    color: #ffff00;
+    color: #0000ff;
 }
 
 li, a, #contact-me {
@@ -83,7 +83,7 @@ li, a, #contact-me {
     box-shadow:0 -5px 5px -5px #e9e5e5, 0 -5px 5px -5px #e9e5e5;
 }
 
-#projects {
+/* #projects {
     background: url(../assets/images/giphycover.gif) no-repeat center; 
     font-family: "Space Mono", Arial, serif;
     color: #ffff00;
@@ -93,10 +93,10 @@ li, a, #contact-me {
     backface-visibility: hidden;
     background-size: cover;
     box-shadow:0 -5px 5px -5px #e9e5e5, 0 -5px 5px -5px #e9e5e5;
-}
+} */
 
 #pj {
-    color: #ffff00;
+    color: #0c0c0c;
 }
 
 #sticky-nav {
@@ -152,7 +152,7 @@ li, a, #contact-me {
 
 
 h2{
-    color: #ffffff;
+    color: #0c0c0c;
     padding: 30px;
     font-weight: bolder;
 }
@@ -295,7 +295,7 @@ li{
 
 .header{
     font-family: "Space Mono", Arial, serif;
-    color: #ffffff;
+    color: #0c0c0c;
     text-align: center;
     margin-top: -48px;
     margin-bottom: -20px;
@@ -304,7 +304,7 @@ li{
 .paragraph{
     font-family: "Space Mono", Arial, serif;
     text-align: center;
-    color: #ffffff;
+    color: #0c0c0c;
     line-height: 23px;
 }
 
